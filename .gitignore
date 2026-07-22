@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Data
+data/Raw/*
+!data/Raw/.gitkeep
+
+data/Processed/*
+!data/Processed/.gitkeep
+
+data/external/*
+!data/external/.gitkeep
+
+# Models
+models/
+
+# Outputs
+outputs/
